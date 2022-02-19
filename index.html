@@ -6,34 +6,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GoIT homework</title>
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
     <!-- Header -->
-    <header>
-        <nav>
-            <a lang="eng" href="#"><span lang="eng">Web</span>Studio</a>
+    <header class="header">
+        <nav class="nav-menu">
+            <a lang="eng" href="./index.html" class="logo"><span lang="eng">Web</span>Studio</a>
             <ul>
-                <li>Студия</li>
-                <li>Портфолио</li>
-                <li>Контакты</li>
+                <li><a href="./index.html" class="link active-link">Студия</a></li>
+                <li><a href="./portfolio.html" class="link">Портфолио</a></li>
+                <li><a href="" class="link">Контакты</a></li>
             </ul>
         </nav>
         <ul>
-            <li><a href="mailto:info@devstudio.com" lang="en">info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+            <li><a class="contact-link" href="mailto:info@devstudio.com" lang="en">info@devstudio.com</a></li>
+            <li><a class="contact-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
     </header>
     <!-- Main -->
     <main>
         <!-- Hero -->
-        <section>
-            <h1>Эффективные решения для вашего бизнеса</h1>
-            <button type="button">Заказать услугу</button>
+        <section class="hero-section">
+            <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+            <button class="hero-button" type="button">Заказать услугу</button>
         </section>
         <!-- Featers -->
-        <section>
-            <h2>Features</h2>
+        <section class="page-section">
+            <h2 class="section-title">Features</h2>
             <ul>
                 <li>
                     <h3>Внимание к деталям</h3>
@@ -54,8 +55,8 @@
             </ul>
         </section>
         <!-- What we Doing -->
-        <section>
-            <h2>Чем мы занимаемся</h2>
+        <section class="page-section">
+            <h2 class="section-title">Чем мы занимаемся</h2>
             <ul>
                 <li><img src="./images/whatWeDoing/whatWeDoing1.jpg" alt="Пишем код" width="370"></li>
                 <li><img src="./images/whatWeDoing/whatWeDoing2.jpg" alt="Делаем адаптив" width="370"></li>
@@ -63,9 +64,9 @@
             </ul>
         </section>
         <!-- Our team -->
-        <section>
-            <h2>Наша команда</h2>
-            <ul>
+        <section class="page-section">
+            <h2 class="section-title">Наша команда</h2>
+            <ul class="team-list">
                 <li>
                     <img src="./images/ourTeam/ourTeam1.jpg" alt="Фото Игоря Демьяненко">
                     <h3>Игорь Демьяненко</h3>
@@ -90,13 +91,13 @@
         </section>
     </main>
     <!-- Footer -->
-    <footer>
-        <a href="#" lang="eng"><span lang="eng">Web</span>Studio</a>
+    <footer class="footer">
+        <a href="#" lang="eng" class="logo"><span lang="eng">Web</span>Studio</a>
         <address>
-            <ul>
-                <li>г. Киев, пр-т Леси Украинки, 26</li>
-                <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+            <ul class="footer-contacts">
+                <li class="address">г. Киев, пр-т Леси Украинки, 26</li>
+                <li><a class="contact-item" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li><a class="contact-item" href="tel:+380961111111">+38 096 111 11 11</a></li>
             </ul>
         </address>
     </footer>
