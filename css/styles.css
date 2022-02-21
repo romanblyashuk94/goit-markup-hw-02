@@ -68,8 +68,8 @@ address {
     color: var(--accent-text-color);
 }
 
-.nav-menu .link:hover,
-.nav-menu .link:focus {
+.header .contact-link:hover,
+.header .contact-link:focus {
     color: var(--accent-text-color);
 }
 
@@ -144,9 +144,14 @@ address {
     
 }
 
-.footer-contacts .contact-item {
+.footer-contacts .contact-link {
     color: rgba(255, 255, 255, 0.6);
     font-weight: 400;
+}
+
+.footer-contacts .contact-link:hover,
+.footer-contacts .contact-link:focus {
+    color: var(--accent-text-color)
 }
 
 /* portfolio styles */
